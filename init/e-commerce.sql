@@ -8,8 +8,8 @@
 -- =====================================================
 
 -- Create the database schema
-CREATE SCHEMA IF NOT EXISTS ecommerce;
-SET search_path TO ecommerce;
+CREATE SCHEMA IF NOT EXISTS ecommerce; --A schema in PostgreSQL is like a folder or namespace that organizes database objects (tables, views, functions, etc.). Think of it as:
+SET search_path TO ecommerce; -- Changes the search path to look in the "ecommerce" schema first, default is public schema
 
 -- =====================================================
 -- 1. TABLES WITH ARRAYS AND JSON COLUMNS
